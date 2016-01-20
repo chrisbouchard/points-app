@@ -1,0 +1,50 @@
+{
+  "name": "fate-charsheet-2.0",
+  "version": "0.1.0",
+  "description": "An application to manage FATE character sheets.",
+  "repository": "chrisbouchard/fate-charsheet-2.0",
+  "scripts": {
+    "build-dev": "NODE_ENV=development gulp build",
+    "build-prod": "NODE_ENV=production gulp build",
+    "build-semantic": "NODE_ENV=production gulp semantic:build",
+    "server": "NODE_ENV=development gulp server",
+    "start": "NODE_ENV=development gulp server"
+  },
+  "keywords": [],
+  "author": "Chris Bouchard <chris@upliftinglemma.net>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "angular2": "2.0.0-beta.1",
+    "babel-polyfill": "6.3.14",
+    "babel-runtime": "6.3.19",
+    "es6-promise": "3.0.2",
+    "es6-shim": "0.33.3",
+    "jquery": "2.2.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "semantic-ui": "2.1.8",
+    "zone.js": "0.5.10"
+  },
+  "devDependencies": {
+    "babel-core": "6.4.0",
+    "babel-loader": "6.2.1",
+    "babel-plugin-transform-runtime": "6.4.0",
+    "babel-preset-es2015": "6.3.13",
+    "css-loader": "0.23.1",
+    "extract-text-webpack-plugin": "1.0.1",
+    "file-loader": "0.8.5",
+    "gulp": "3.9.0",
+    "haml-haml-loader": "1.0.1",
+    "html-loader": "0.4.0",
+    "less": "2.5.3",
+    "less-loader": "2.2.2",
+    "raw-loader": "0.5.1",
+    "style-loader": "0.13.0",
+    "ts-loader": "0.7.2",
+    "typescript": "1.8.0-dev.20160103",
+    "url-loader": "0.5.7",
+    "webpack": "1.12.11",
+    "webpack-dev-server": "1.14.0",
+    "webpack-sources": "0.1.0"
+  }
+}

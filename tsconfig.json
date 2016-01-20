@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "es6"
+  },
+  "files": [ "custom_typings/custom.d.ts" ]
+}
+
